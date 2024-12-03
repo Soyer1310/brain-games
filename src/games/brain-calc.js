@@ -1,4 +1,4 @@
-import getRandomNumber from '../src/get-random-number.js';
+import getRandomNumber from '../get-random-number.js';
 
 export const task = 'What is the result of the expression?';
 
@@ -22,7 +22,7 @@ const brainCalc = () => {
   const firstNum = getRandomNumber(0, 100);
   const secondNum = getRandomNumber(0, 100);
   const question = `${firstNum} ${operator} ${secondNum}`;
-  const result = calc(operator, firstNum, secondNum);
+  const result = calc(firstNum, secondNum, operator);
   return [question, result.toString()];
 };
 

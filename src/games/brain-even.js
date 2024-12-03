@@ -1,4 +1,4 @@
-import getRandomNumber from '../src/get-random-number.js';
+import getRandomNumber from '../get-random-number.js';
 
 const divisor = 2;
 const isIven = (num) => num % divisor === 0;

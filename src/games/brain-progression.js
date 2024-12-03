@@ -1,4 +1,4 @@
-import getRandomNumber from '../src/get-random-number.js';
+import getRandomNumber from '../get-random-number.js';
 
 export const task = 'What number is missing in the progression?';
 

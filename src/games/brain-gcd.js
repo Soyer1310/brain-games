@@ -1,4 +1,4 @@
-import getRandomNumber from '../src/get-random-number.js';
+import getRandomNumber from '../get-random-number.js';
 
 export const task = 'Find the greatest common divisor of given numbers.';
 
